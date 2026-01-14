@@ -2,6 +2,8 @@ package actividad1;
 
 import java.util.Scanner;
 
+//Maria Jose Montero Soliz
+
 public class CalculadoraMisteriosa {
 
 	public static void main(String[] args) {

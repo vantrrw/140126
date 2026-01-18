@@ -95,13 +95,13 @@ public class CalculadoraMisteriosa {
 	}
 
 	public static void mostrarInstrucciones() {
-		/*
-		 * System.out.println("\n=== INSTRUCCIONES ===");
-		 * System.out.println("1. Selecciona una operación del menú");
-		 * System.out.println("2. Ingresa los números cuando se te solicite");
-		 * System.out.println("3. El resultado se mostrará en pantalla"); System.out.
-		 * println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
-		 */
+		
+		System.out.println("\n=== INSTRUCCIONES ===");
+		System.out.println("1. Selecciona una operación del menú");
+		System.out.println("2. Ingresa los números cuando se te solicite");
+		System.out.println("3. El resultado se mostrará en pantalla"); 
+		System.out.println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
+		
 	}
 
 }

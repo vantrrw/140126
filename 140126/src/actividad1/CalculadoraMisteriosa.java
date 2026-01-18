@@ -2,7 +2,10 @@ package actividad1;
 
 import java.util.Scanner;
 
-//Maria Jose Montero Soliz
+/**
+ * Clase que implementa una calculadora
+ * @author Maria Jose Montero Soliz
+ * @version 1.0*/
 
 public class CalculadoraMisteriosa {
 
@@ -62,11 +65,16 @@ public class CalculadoraMisteriosa {
 		System.out.print("Ingresa el segundo número: ");
 		int b = sc.nextInt();
 
-		return a - b;
+		return a + b;
 	}
 
 	public static int restar(int a, int b) {
-		return a * b;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Ingresa el primer número: ");
+		a = sc.nextInt();
+		System.out.print("Ingresa el segundo número: ");
+		b = sc.nextInt();
+		return a - b;
 	}
 
 	public static int multiplicar() {
@@ -76,10 +84,15 @@ public class CalculadoraMisteriosa {
 		System.out.print("Ingresa el segundo número: ");
 		int num2 = sc.nextInt();
 
-		return num1 + num2;
+		return num1 * num2;
 	}
 
 	public static double dividir(double a, double b) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Ingresa el primer número: ");
+		a = sc.nextInt();
+		System.out.print("Ingresa el segundo número: ");
+		b = sc.nextInt();
 		return a / b;
 	}
 
@@ -87,11 +100,11 @@ public class CalculadoraMisteriosa {
 		double[] numeros = { 10, 20, 30, 40, 50 };
 		double suma = 0;
 
-		for (int i = 0; i <= numeros.length; i++) {
+		for (int i = 0; i < numeros.length; i++) {
 			suma += numeros[i];
 		}
 
-		return suma / (numeros.length - 1);
+		return suma / (numeros.length);
 	}
 
 	public static void mostrarInstrucciones() {
